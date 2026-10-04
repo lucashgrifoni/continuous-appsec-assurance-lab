@@ -2,6 +2,7 @@ name: synthetic-check
 on:
   pull_request:
     branches: [main]
+    paths: ['labn-never-matches/**']
 permissions: {}
 jobs:
   synthetic-check:
